@@ -1,5 +1,13 @@
 #Install Ubuntu Server
 Boot Ubuntu Server
+~ sudo visudo
+Find the line that says:
+
+%admin ALL=(ALL) ALL
+And change it to:
+%admin ALL=(ALL) NOPASSWD: ALL
+Save and exit the file
+
 #Using an SSH client
 ~ ssh <username>@<Raspberry Pi’s IP address>
 or

@@ -1,0 +1,67 @@
+...
+channels:
+  1.26/stable:           v1.26.3  2023-03-30 (4959) 177MB classic
+  1.26/candidate:        v1.26.3  2023-03-30 (4959) 177MB classic
+  1.26/beta:             v1.26.3  2023-03-30 (4959) 177MB classic
+  1.26/edge:             v1.26.3  2023-04-07 (5063) 177MB classic
+  latest/stable:         v1.26.3  2023-03-30 (4959) 177MB classic
+  latest/candidate:      v1.27.0  2023-04-12 (5100) 177MB classic
+  latest/beta:           v1.27.0  2023-04-12 (5100) 177MB classic
+  latest/edge:           v1.27.0  2023-04-11 (5100) 177MB classic
+  dqlite/stable:         –                                
+  dqlite/candidate:      –                                
+  dqlite/beta:           –                                
+  dqlite/edge:           v1.16.2  2019-11-07 (1038) 189MB classic
+  1.27-strict/stable:    v1.27.0  2023-04-12 (5107) 177MB -
+  1.27-strict/candidate: v1.27.0  2023-04-12 (5107) 177MB -
+  1.27-strict/beta:      v1.27.0  2023-04-12 (5107) 177MB -
+  1.27-strict/edge:      v1.27.0  2023-04-11 (5107) 177MB -
+  1.27/stable:           v1.27.0  2023-04-12 (5101) 177MB classic
+  1.27/candidate:        v1.27.0  2023-04-12 (5101) 177MB classic
+  1.27/beta:             v1.27.0  2023-04-12 (5101) 177MB classic
+  1.27/edge:             v1.27.0  2023-04-11 (5101) 177MB classic
+  1.26-strict/stable:    v1.26.1  2023-02-23 (4596) 176MB -
+  1.26-strict/candidate: v1.26.3  2023-04-02 (5017) 177MB -
+  1.26-strict/beta:      v1.26.3  2023-04-02 (5017) 177MB -
+  1.26-strict/edge:      v1.26.3  2023-03-30 (5017) 177MB -
+  1.25-strict/stable:    v1.25.8  2023-04-11 (5019) 175MB -
+  1.25-strict/candidate: v1.25.8  2023-04-01 (5019) 175MB -
+  1.25-strict/beta:      v1.25.8  2023-04-01 (5019) 175MB -
+  1.25-strict/edge:      v1.25.8  2023-03-30 (5019) 175MB -
+  1.25-eksd/stable:      v1.25-10 2023-04-07 (5052) 175MB classic
+  1.25-eksd/candidate:   v1.25-10 2023-04-05 (5052) 175MB classic
+  1.25-eksd/beta:        v1.25-10 2023-04-05 (5052) 175MB classic
+  1.25-eksd/edge:        v1.25-10 2023-04-07 (5078) 175MB classic
+  1.25/stable:           v1.25.8  2023-04-03 (5016) 175MB classic
+  1.25/candidate:        v1.25.8  2023-04-01 (5016) 175MB classic
+  1.25/beta:             v1.25.8  2023-04-01 (5016) 175MB classic
+  1.25/edge:             v1.25.8  2023-04-07 (5064) 175MB classic
+  1.24-eksd/stable:      v1.24-14 2023-04-10 (5044) 171MB classic
+  1.24-eksd/candidate:   v1.24-14 2023-04-01 (5044) 171MB classic
+  1.24-eksd/beta:        v1.24-14 2023-04-01 (5044) 171MB classic
+  1.24-eksd/edge:        v1.24-14 2023-04-11 (5088) 171MB classic
+  1.24/stable:           v1.24.12 2023-03-20 (4950) 225MB classic
+  1.24/candidate:        v1.24.12 2023-03-20 (4950) 225MB classic
+  1.24/beta:             v1.24.12 2023-03-20 (4950) 225MB classic
+  1.24/edge:             v1.24.12 2023-03-17 (4950) 225MB classic
+  1.23-eksd/stable:      v1.23-19 2023-04-09 (5043) 167MB classic
+  1.23-eksd/candidate:   v1.23-19 2023-03-31 (5043) 167MB classic
+  1.23-eksd/beta:        v1.23-19 2023-03-31 (5043) 167MB classic
+  1.23-eksd/edge:        v1.23-19 2023-04-10 (5086) 167MB classic
+  1.23/stable:           v1.23.17 2023-03-30 (4916) 213MB classic
+  1.23/candidate:        v1.23.17 2023-03-29 (4916) 213MB classic
+  1.23/beta:             v1.23.17 2023-03-29 (4916) 213MB classic
+  1.23/edge:             v1.23.17 2023-03-16 (4916) 213MB classic
+  1.22-eksd/stable:      v1.22-24 2023-04-08 (5041) 164MB classic
+  1.22-eksd/candidate:   v1.22-24 2023-03-31 (5041) 164MB classic
+  1.22-eksd/beta:        v1.22-24 2023-03-31 (5041) 164MB classic
+  1.22-eksd/edge:        v1.22-24 2023-03-31 (5041) 164MB classic
+  1.22/stable:           v1.22.17 2022-12-18 (4374) 187MB classic
+  1.22/candidate:        v1.22.17 2022-12-10 (4374) 187MB classic
+  1.22/beta:             v1.22.17 2022-12-10 (4374) 187MB classic
+  1.22/edge:             v1.22.17 2023-03-16 (4915) 187MB classic
+  1.21/stable:           v1.21.13 2022-07-20 (3410) 191MB classic
+  1.21/candidate:        v1.21.13 2022-07-09 (3410) 191MB classic
+  1.21/beta:             v1.21.13 2022-07-09 (3410) 191MB classic
+  1.21/edge:             v1.21.13 2022-06-08 (3410) 191MB classic
+  ...

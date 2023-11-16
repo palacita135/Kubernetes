@@ -32,6 +32,7 @@ Run:
 ~ sudo reboot
 
 #Installing MicroK8s
+You must swap the system
 ~ sudo nano /boot/firmware/cmdline.txt
 And add the following options:
 cgroup_enable=memory cgroup_memory=1

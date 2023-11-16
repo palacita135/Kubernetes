@@ -31,7 +31,9 @@ Run:
 ~ sudo netplan apply
 ~ sudo reboot 
 
-#Install a desktop
+=============================================================================================================================================================================================================================
+
+#Install a desktop (optional)
 ~ sudo apt update
 ~ sudo apt upgrade
 
@@ -39,7 +41,7 @@ Run:
 ~ sudo apt install lubuntu-desktop
 ~ sudo reboot
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #Installing MicroK8s
 You must swap the system
@@ -48,7 +50,7 @@ And add the following options:
 cgroup_enable=memory cgroup_memory=1
 
 The full line for this particular raspberry pi looks like this:
-cgroup_enable=memory cgroup_memory=1 net.ifnames=0 dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait
+ ".. cgroup_enable=memory cgroup_memory=1 net.ifnames=0 dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait .."
 Now save the file in your editor and reboot:
 ~ sudo reboot
 
@@ -122,3 +124,11 @@ The name of nodes are available on the master by running the :
 
 Alternatively, you can leave the cluster from a leaf node by running:
 ~ sudo microk8s.leave
+
+#Starting and Stopping MicroK8s
+MicroK8s will continue running until you decide to stop it. You can stop and start MicroK8s with these simple commands :
+~ microk8s stop
+will stop MicroK8s and its services. You can start again any time by running :
+~ microk8s start
+
+Note that if you leave MicroK8s running, it will automatically restart after a reboot. If you don’t want this to happen, simply remember to run microk8s stop before you power down.

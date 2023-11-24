@@ -1,3 +1,15 @@
+To test if the fix will work for you, please run the following command in shell (terminal) of your RPi:
+~ sudo dhclient -v
+
+Run following command to edit root cron:
+~ sudo crontab -e
+and on a new line, at the end, add the following line:
+@reboot dhclient -v
+
+After you save the file, you should be all set! The network should last even after a restart.
+
+===================================================================================
+
 #Install Ubuntu Server
 Boot Ubuntu Server
 ~ sudo visudo

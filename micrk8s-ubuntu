@@ -1,0 +1,34 @@
+~ sudo snap install microk8s --classic
+~ sudo usermod -a -G microk8s $USER
+~ sudo chown -f -R $USER ~/.kube
+~ su - $USER
+~ microk8s status --wait-ready
+~ microk8s enable dashboard dns ingress
+~ microk8s kubectl get all --all-namespaces
+~ microk8s dashboard-proxy
+
+~ microk8s add-node
+~ microk8s kubectl get no
+
+===================================================================
+LXD
+hese instructions represent the complete set of commands you need
+to enter into your terminal to install Charmed Kubernetes on your
+local machine with LXD. Be advised that the full installation of Charmed Kubernetes
+is only recommended for a machine with 32GB RAM and 250GB of SSD storage.
+
+~ sudo snap install lxd --classic
+~ lxd init
+==================================================================
+AWS - AZURE - Google Clouds
+
+~ sudo snap install juju --classic
+~ juju clouds
+~ juju add-credential gcp
+~ juju bootstrap gcp my-controller
+~ juju add-model k8s
+~ juju deploy charmed-kubernetes
+~ watch -c juju status --color
+~ juju debug-log -m k8s -n 20
+~ 
+

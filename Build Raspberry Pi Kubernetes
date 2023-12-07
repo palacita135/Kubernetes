@@ -75,7 +75,7 @@ Discovering MicroK8s
 #Join the group
 MicroK8s creates a group to enable seamless usage of commands which require admin privilege. To add your current user to the group and gain access to the .kube caching directory, run the following two commands:
 ~ sudo usermod -a -G microk8s <USERNAME>
-sudo chown -f -R <USERNAME> ~/.kube
+~ sudo chown -f -R <USERNAME> ~/.kube
 
 You will also need to re-enter the session for the group update to take place:
 ~ su - <USERNAME>

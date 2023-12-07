@@ -7,7 +7,7 @@
 ~ microk8s kubectl get all --all-namespaces
 ~ microk8s dashboard-proxy
 
-~ microk8s add-node
+~ microk8s.add-node
 ~ microk8s kubectl get no
 
 ===================================================================
@@ -30,5 +30,4 @@ AWS - AZURE - Google Clouds
 ~ juju deploy charmed-kubernetes
 ~ watch -c juju status --color
 ~ juju debug-log -m k8s -n 20
-~ 
 

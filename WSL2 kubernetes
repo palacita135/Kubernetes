@@ -3,6 +3,9 @@ sudo snap install microk8s --classic --channel=latest/stable
 sudo ufw allow in on cni0 && sudo ufw allow out on cni0
 sudo ufw default allow routed
 
+sudo usermod -a -G microk8s username
+sudo chown -f -R username ~/.kube
+
 microk8s enable dns 
 microk8s enable dashboard
 microk8s enable storage

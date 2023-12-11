@@ -5,6 +5,7 @@ sudo ufw default allow routed
 
 sudo usermod -a -G microk8s username
 sudo chown -f -R username ~/.kube
+su - username
 
 microk8s enable dns 
 microk8s enable dashboard

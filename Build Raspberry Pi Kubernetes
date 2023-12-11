@@ -102,8 +102,8 @@ It may take a minute or two to install, but you can check the status:
 ~ microk8s kubectl get pods
 
 #Use add-ons :
-~ microk8s enable dns
-~ microk8s enable hostpath-storage
+~ microk8s.enable dns
+~ microk8s.enable hostpath-storage
 
 Before going further here is a quick intro to the MicroK8s command line:
 The start command will start all enabled Kubernetes services: ~ microk8s.start
